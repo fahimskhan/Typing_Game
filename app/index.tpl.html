@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>React/Redux Typing Game</title>
+    <meta name="description" content="React/Redux Typing Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* YOUR CSS STYLES HERE */
+        .wordbox {
+          border: 2px solid gray;
+          border-radius: 5px;
+          padding: 10px;
+          width: 80vw;
+          font-size: 115%;
+          font-family: "Verdana";
+        }
+
+        .pending {
+          color: grey;
+        }
+
+        .correct {
+          color: blue;
+        }
+
+        .incorrect {
+          color: red;
+          text-decoration: line-through;
+          text-decoration-color: red;
+        }
+
+        .inputbox {
+          width: 76vw;
+          height: 4vw;
+          margin: 20px;
+          font-size: 110%;
+        }
+
+        .timer {
+          color: red;
+          font-size: 120%;
+          font-weight: bold;
+        }
+
+        .score {
+          margin-left: 250px;
+          color: green;
+          font-size: 120%;
+          font-weight: bold;
+        }
+
+        .gameover {
+          /* border: 2px solid dimgrey; */
+          border-radius: 5px;
+          width: 400px;
+          padding: 50px;
+          margin: 50px;
+          background: #3B5998;
+          color: ghostwhite;
+        }
+
+        .playagain {
+          background: limegreen;
+          color: white;
+          border-radius: 5px;
+          font-size: 100%;
+          padding: 7px;
+        }
+    </style>
+</head>
+
+<body class="view-login">
+  <center>
+    <div id="root"></div>
+  </center>
+</body>
+
+</html>
